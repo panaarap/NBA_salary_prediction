@@ -1,0 +1,37 @@
+TEAM_ABBREVIATION,Tax_Level
+DAL,No Tax
+HOU,No Tax
+SAS,No Tax
+MIA,No Tax
+ORL,No Tax
+MEM,No Tax
+UTA,Low
+DEN,Low
+IND,Low
+OKC,Low
+CHI,Moderate
+DET,Moderate
+ATL,Moderate
+BOS,Moderate
+MIL,High
+PHX,High
+WAS,High
+MIN,High
+POR,High
+BKN,Very High
+NYK,Very High
+TOR,Very High
+PHI,Very High
+GSW,Very High
+LAL,Very High
+LAC,Very High
+SAC,Very High
+SEA,Low
+NJN,Moderate
+CLE,No Tax
+VAN,No Tax
+CHH,Low
+NOH,Low
+CHA,Moderate
+NOK,Low
+NOP,Low

@@ -1,0 +1,4 @@
+Model,Best Parameters
+Lgbm,"{'lambda_l1': 1.5, 'lambda_l2': 0, 'min_data_in_leaf': 300, 'num_leaves': 31, 'reg_alpha': 0.1, 'verbosity': -1}"
+Xgboost,"{'alpha': 10.0, 'colsample_bytree': 0.975, 'gamma': 0.7, 'lambda': 7.0, 'learning_rate': 0.025, 'max_depth': 3, 'min_child_weight': 8, 'n_estimators': 950, 'subsample': 0.75}"
+Catboost,"{'bagging_temperature': 1.25, 'bootstrap_type': 'Bayesian', 'min_data_in_leaf': 30}"
