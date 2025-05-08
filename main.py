@@ -252,15 +252,19 @@ baseline_model={
     # 'Lgboost2':lgbm,
     }
 
-
+# =============================================================================
+# Gridsearch
+# =============================================================================
+"""
 best_models_df, best_params_df, rmse_df, r2_df = run_multiple_gridsearch(
     baseline_model, train, test, features, target)
 
+"""
 
 
 """
-Saved best parameters from gridsearch
-
+Saved best parameters from gridsearch that was already run 
+"""
 best_params_df=pd.read_csv('best_params.csv')
 import ast
 best_params_df['Best Parameters'] = best_params_df['Best Parameters'].apply(ast.literal_eval)
@@ -269,7 +273,7 @@ rmse_df.index=['Rmse_tuned','Rmse_base']
 r2_df=pd.read_csv('r2_df.csv')
 r2_df.index=['R2_tuned','R2_base']
 
-"""
+
 
 
 # =============================================================================
