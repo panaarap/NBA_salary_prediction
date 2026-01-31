@@ -52,6 +52,8 @@ df=util.clean_data(df)
 # =============================================================================
 df.info()
 
+# save cleaned df
+df.to_csv("api_hoops_2000_23_stats_salary_df_CLEANED.csv", index=False)
 # Counting categorical and numerical values
 
 categorical=0
@@ -451,5 +453,6 @@ sr_complex,rmse_merge,r2_merge=train_score_ensemble(
             train=train,
             features=features,
             target=target)
+
 
 
